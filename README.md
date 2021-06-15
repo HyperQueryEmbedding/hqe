@@ -1,9 +1,20 @@
-# Query Embedding on Hyper-relational Knowledge Graphs #
+# Query Embedding on Hyper-Relational Knowledge Graphs
+
+<p align="center">
+<img src="https://img.shields.io/badge/python-3.8-blue.svg">
+<a href="https://github.com/DimitrisAlivas/mphrqe/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
+<a href="TODO"><img src="http://img.shields.io/badge/Paper-PDF-red.svg"></a>
+</p>
+
+
+<img src="./the_qual_effect.svg" width="100%">
 
 This repository contains the code used for the experiments in the paper
 
 ```
-Query Embedding on Hyper-relational Knowledge Graphs.
+Query Embedding on Hyper-Relational Knowledge Graphs.
+ANONYMIZED AUTHORS
 ```
 
 If you encounter any problems, or have suggestions on how to improve this code, open an issue.
@@ -169,4 +180,16 @@ hqe evaluate \
     --use-wandb \
     --wandb-name "test-example" \
     --model-path "training-example-model.pt"
+```
+
+
+# Citation
+
+If you find this work useful, please consider citing
+
+```bibtex
+@article{
+  author={ANONYMIZED AUTHORS},
+  title ={Query Embedding on Hyper-Relational Knowledge Graphs},
+}
 ```
